@@ -1,0 +1,74 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #260906;
+  color: #F9F9F9;
+}
+
+html {
+  background-image: url('bgimg.png'); 
+}
+
+body {
+  background-color: white;
+  color: #434343;
+  font-family: 'Arial', sans-serif;
+  margin-left:21%;
+  margin-right:21%;
+
+}
+
+@media screen and (max-width: 760px) {
+  body {
+  margin-left:5%;
+  margin-right:5%;
+
+  }
+}
+
+h1 {
+  color: #960027;
+  font-family: 'Comic Neue', sans-serif;
+}
